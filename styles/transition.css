@@ -1,0 +1,30 @@
+#text:hover {
+    color: red;
+    transform: translateX(100px);
+}
+
+#text {
+    transition: color 1s linear;
+    transition: transform 5s ease-in-out;
+    animation: animatetext 3s linear 1;
+    transform: translateX(0px);
+}
+
+@keyframes animatetext {
+   0%{
+    transform: translate(0px,0px);
+   }
+   25%{
+    transform: translate(0px,100px);
+   }
+   50%{
+    transform: translate(100px,100px);
+   }
+   75%{
+    transform: translate(100px,0px);
+   }
+   100%{
+    transform: translate(0px,0px);
+   }
+
+}

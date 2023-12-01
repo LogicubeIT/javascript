@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#wrapper{
+  display: flex;
+  gap: 2rem;
+  height: auto;
+}
+.wrapper_item{
+  background-color: aqua;
+  padding: 1rem;
+}
+#item-1{
+  flex: 1;
+}
+
+#item-2{
+  flex: 1;
+}
+
+#item-3{
+  flex: 1.5;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  width: 20%;
+}
+.btn:nth-last-child(1){
+  flex: 1;
+}
